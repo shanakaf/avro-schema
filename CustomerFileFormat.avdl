@@ -1,0 +1,21 @@
+@namespace("com.codapayments.test.avro")
+protocol recordDetails {
+
+    import idl "common.avdl";
+
+    record CustomerFileFormat {
+        ValueType firstName;
+        ValueType lastName;
+        ValueType companyName;
+        ValueType address;
+        ValueType city;
+        ValueType country;
+        ValueType state;
+        ValueType zip;
+        ValueType phoneNumberOne;
+        ValueType phoneNumberTwo;
+        ValueType emailAddress;
+        ValueType website;
+    }
+
+}

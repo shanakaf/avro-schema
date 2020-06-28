@@ -1,0 +1,7 @@
+@namespace("com.codapayments.test.avro")
+protocol common {
+    record ValueType {
+        union {null, string} value = null;
+        string type;
+    }
+}
